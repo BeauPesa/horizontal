@@ -1,0 +1,80 @@
+/* RESET & BASIC SETUP */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	/*font-family: 'Lucida Grande', Helvetica, sans-serif;*/
+	background: #222;
+	color: #999;
+	padding: 20px;
+}
+
+tr {
+	vertical-align: top;
+	}
+
+/* UNIVERSAL STYLES */
+
+@font-face {
+	font-family: 'Playfair Display', serif;
+	src: url();
+}
+
+p { font-size: 1.2em;
+	 	margin: 0 0 15px 0;
+		color: black;
+	}
+
+h1 { font-family: "Playfair Display Black", serif;
+	 	 font-size: 4.0em;
+		 letter-spacing: -1px;
+		 color: #ccc;
+		 margin-top: 10px;
+		 position: fixed;
+		 color: #45b972
+	 }
+
+h2 { font-family: "Playfair Display Black", serif;
+	 	 font-size: 3.0em;
+		 font-style: black;
+		 letter-spacing: -1px;
+		 color: #555;
+
+	 }
+
+a { color: #45b972;
+ 		text-decoration: none;
+	}
+
+a:hover { color: #fff;
+
+	}
+
+/* STRUCTURE */
+
+.post__container {
+	/*border: .5px white solid;*/
+	
+	margin-left: 250px;
+	margin-bottom: 80px;
+	margin-top: 75px;
+}
+.post {
+	background-color: #eee;
+	border: 1px white solid;
+	border-radius: 10px;
+	margin: 0 15px;
+	padding: 20px;
+	width: 350px;
+	height: 650px;
+	/*overflow: scroll;*/
+}
+
+nav {
+	display: inline-block;
+	text-transform: rotate(90deg);
+}
